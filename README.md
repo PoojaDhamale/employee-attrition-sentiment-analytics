@@ -141,7 +141,7 @@ Ensure the following files end up in the same folder as `app.py` before running 
 ### Data Source
 
 - `WA_Fn-UseC_-HR-Employee-Attrition.csv` is included in this repo.
-- `glassdoor_reviews.csv` (838,566 rows) is **not included** due to size and dataset licensing terms. *(Insert the source link you used — e.g. Kaggle — here.)* Place the downloaded file in the project root before running `glassdoor_sentiment_nlp.ipynb`.
+- `glassdoor_reviews.csv` (838,566 rows) is **not included** due to size issue.* Place the downloaded file in the project root before running `glassdoor_sentiment_nlp.ipynb`.
 
 ---
 
