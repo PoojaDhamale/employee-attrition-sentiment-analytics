@@ -1,0 +1,19 @@
+# Large/raw data — see README for source and how to regenerate
+glassdoor_reviews.csv
+ 
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ 
+# Streamlit
+.streamlit/
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Environment
+.env
+venv/
+.venv/
