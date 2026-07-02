@@ -95,8 +95,8 @@ Glassdoor employee reviews — 838,566 raw rows, sampled down to **50,000 rows**
 
 ### Results
 - **Model:** TF-IDF + Logistic Regression
-- **Test AUC-ROC:** *(insert your final number from `glassdoor_nlp_config.json`)*
-- **Cross-validation AUC:** *(insert mean ± std from `glassdoor_nlp_config.json`)*
+- **Test AUC-ROC:** 0.8930640266360235
+- **Cross-validation AUC:** 0.8979108477874543± 0.004698048377155966
 - **Class balance handled via** `class_weight='balanced'`, not by discarding data — large corporate employers naturally generate far fewer negative reviews than positive ones (84:16 split), and this pattern held even after broadening scope from Tech-only to Tech+Consulting+Finance.
 
 ---
